@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Call" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Friends" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Location" />
+        <item
+            android:id="@+id/nav_mail"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Mail" />
+        <item
+            android:id="@+id/nav_task"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Task" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Search" />
+    </group>
+</menu>
